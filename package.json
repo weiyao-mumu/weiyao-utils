@@ -1,0 +1,20 @@
+{
+  "name": "weiyao-jasmine-utils",
+  "version": "1.0.3",
+  "main": "./dist/weiyao-utils.js",
+  "license": "MIT",
+  "keywords": [
+    "weiyao",
+    "weiyao-jasmine",
+    "utils"
+  ],
+  "author": "weiyao-jasmine",
+  "scripts": {
+  "build:watch": "webpack --watch",
+  "build": "webpack"
+},
+  "dependencies": {
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
